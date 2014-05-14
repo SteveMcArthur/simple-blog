@@ -1,0 +1,41 @@
+.caption {
+	position: absolute;
+	background: #7D1935;
+	background: rgba(125,25,53,0.7);
+	width: 100%;
+	height: 100%;
+	text-align:center;
+}
+.caption span {
+	display: block;
+	position:absolute;
+	text-align:center;
+	padding: 10px 0;
+	/*margin: 40px 20px 20px 20px;*/
+	font-weight: bold;
+	color: rgba(255,255,255,0.9);
+	/*text-shadow: 1px 1px 1px rgba(0,0,0,0.2);*/
+	margin:0 auto;
+	bottom:10px;
+	width:100%;
+	font-size:20px;
+
+	/*border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);*/
+}
+
+.panel {
+	position:relative;
+	overflow:hidden;
+}
+
+#image-col .caption{
+	left:-299px;
+}
+#centre-col .caption{
+	left:-609px;
+}
+
+.item a:hover{
+    color: #0078a0 !important;
+}

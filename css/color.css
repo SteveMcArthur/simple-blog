@@ -1,0 +1,18 @@
+html,
+body {
+    color: #555;
+}
+.content-wrapper {
+    background: #f1f2f6;
+}
+h1 a,
+h1 a:hover {
+    color: #222222;
+}
+.article_pub-date {
+    color: #949494;
+}
+.ui.vertical.menu > .item.active {
+    border-right-color: #00B9F0;
+    color: #00B9F0;
+}
